@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "LISTA_4.Controllers.PessoaController",
+    "Method": "AdicionarPessoa",
+    "RelativePath": "API/PESSOA/AdicionarPessoa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoa",
+        "Type": "LISTA_4.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LISTA_4.Controllers.PessoaController",
+    "Method": "AtualizarPessoa",
+    "RelativePath": "API/PESSOA/AtualizarPessoa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpfBusca",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pessoaAtualizada",
+        "Type": "LISTA_4.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LISTA_4.Controllers.PessoaController",
+    "Method": "BuscarPessoaCPF",
+    "RelativePath": "API/PESSOA/BuscarPessoaPorCPF",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LISTA_4.Controllers.PessoaController",
+    "Method": "BuscarPorNome",
+    "RelativePath": "API/PESSOA/BuscarPorNome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LISTA_4.Controllers.PessoaController",
+    "Method": "BuscarTodos",
+    "RelativePath": "API/PESSOA/BuscarTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LISTA_4.Controllers.PessoaController",
+    "Method": "MostrarIMC",
+    "RelativePath": "API/PESSOA/PessoaComIMCBom",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LISTA_4.Controllers.PessoaController",
+    "Method": "RemoverPessoa",
+    "RelativePath": "API/PESSOA/RemoverPessoa",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
